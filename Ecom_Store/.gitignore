@@ -1,5 +1,6 @@
 # Ignore node_modules
 node_modules/*
+package-lock.json
 
 # Logs
 logs
@@ -29,3 +30,4 @@ dist-ssr
 # Ignore node_modules in react ecom directory
 ./react ecom/node_modules
 node_modules
+package-lock.json
