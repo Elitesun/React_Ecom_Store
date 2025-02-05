@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing : border-box;
+  font-family: sans-serif;
+
+}
+
+a{
+  text-decoration: none;
+  color:rgb(97,97,97)
+}
+
+li{
+  list-style: none;
+}
+
+/* btns : p - 10 20
+mr - 6
+bg:trans
+border : none
+border :0.6 solid ccc
+border-raduis 5
+color 32324 
+cursor: pointer */
