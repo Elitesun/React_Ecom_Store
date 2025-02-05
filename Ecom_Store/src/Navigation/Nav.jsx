@@ -10,6 +10,23 @@ const Nav = () => {
             className="search-input"/>
         </div>
 
+        <div className="profile-container">
+
+            <a href="#">
+                <FiHeart className='nav-icons'/>
+            </a>
+
+            <a href="#">
+                <AiPOutlineShoppingCart className='nav-icons'/>
+            </a>
+
+            <a href="#">
+                <AiOutlineUserAdd className='nav-icons'/>
+            </a>
+
+
+        </div>
+
 
 
 
