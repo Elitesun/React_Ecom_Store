@@ -27,4 +27,4 @@ dist-ssr
 *.sw?
 
 # Ignore node_modules in react ecom directory
-react ecom/node_modules
+"react ecom/node_modules"
