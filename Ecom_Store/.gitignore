@@ -28,3 +28,4 @@ dist-ssr
 
 # Ignore node_modules in react ecom directory
 ./react ecom/node_modules
+node_modules
