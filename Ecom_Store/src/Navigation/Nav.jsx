@@ -4,7 +4,7 @@ import {AiOutlineShoppingCart , AiOutlineUserAdd} from 'react-icons/ai'
 
 const Nav = () => {
 return (
-<nav className='flex border-b-2 border-solid border-b-[#f3f3f3] justify-around items-center p-20 z-999 ml-[2rem]'>
+<nav className='flex border-b-2 border-solid border-b-[#f3f3f3] justify-around items-center p-20 z-999 ml-[2rem] '>
     <div className="flex border-b-2 border-solid border-b-[#f3f3f3]">
         <input type="text" placeholder="Search Products" className="search-input" />
     </div>
@@ -27,7 +27,7 @@ return (
     </div>
 
     {/* scoped stu=yles . i dont want to create a Nav.css so let it stay here */}
-    <style jsx>
+    <style scoped>
         {
             ` input {
                 padding: 12px 20px;
@@ -55,8 +55,7 @@ return (
 
 
 </nav>
-)
-}
+)}
 
 
 export default Nav
