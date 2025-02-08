@@ -116,7 +116,7 @@ const data = [
     title: "Unisex-Adult Super",
     reviews: `(${Math.floor(Math.random() * 200 + 1)} reviews)`,
     prevPrice: `$${(Math.random() * 100 + 50).toFixed(2)}`,
-    newPrice: `${(Math.random() * 100 + 50).toFixed(2)}`,
+    newPrice: `$${(Math.random() * 100 + 50).toFixed(2)}`,
     company: "Puma",
     color: "black",
     category: "sneakers",
