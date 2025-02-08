@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaRegHeart } from "react-icons/fa";
 import data from '../assets/data.js'
+import { AiFillStar } from "react-icons/ai";
 
 const Product = () => {
     console.log(data);
@@ -30,10 +31,12 @@ return (
                                 In Stock
                             </span>
                             <div className="flex items-center">
-                                <span className="material-symbols-outlined text-yellow-400">
-                                    star
+                                <span className=" text-yellow-400 flex">
+                                {Array.from({ length: Math.floor(Math.random() * 5) + 1 }).map((_, index) => (
+                                                    <AiFillStar key={index} />
+                                                ))}
                                 </span>
-                                <span className="text-sm ml-1">4.8 (120)</span>
+                                <span className="text-sm ml-1">{product.reviews} (120)</span>
                             </div>
                         </div>
                         <h3 className="text-lg font-semibold mb-2">
