@@ -6,8 +6,10 @@ import Price from './Price.jsx'
 const Sidebar = () => {
 return (
 <>
-    <section className=" h-full flex flex-col border-r border-gray-200 bg-white p-4 shadow-sm ">
-        <div>🛒</div>
+    <section className="w-30 h-full flex flex-col border-r-gray-500 p-4 shadow-sm items-center ">
+        <div className='pb-[4rem] mt-3'>
+            <div> 🛒</div>
+        </div>
         <Category />
     </section>
 </>
