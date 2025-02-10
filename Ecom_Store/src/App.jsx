@@ -3,17 +3,20 @@ import Category from './Sidebar/Category.jsx'
 import Nav from './Navigation/Nav.jsx'
 import Product from './Products/Product.jsx'
 import Recon from './Navigation/Recon.jsx'
-
+import Sidebar from './Sidebar/Sidebar.jsx'
 const App = () => {
   return (
-    <>
-      <Nav />
-     <Recon />
-     <div className=" flex">
-      <Category />
-      <Product />
-     </div>
-    </>
+    <div className='flex'>
+      <div>
+        <Sidebar />
+      </div>
+
+      <div className='flex flex-col'>
+        <Nav />
+        <Recon />
+        <Product/>
+      </div>
+    </div>
  
      
     
