@@ -7,7 +7,7 @@ import { FiShoppingCart } from "react-icons/fi";
 const Product = () => {
 return (
 
-<section className='flex flex-wrap gap-4 justify-around'>
+<section className='flex flex-wrap gap-2 justify-around'>
     {data.map((product) => (
     <div key={Math.random()}
         className=" sm:w-[280px] h-[430px] bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 mt-6 border-t-4 border-blue-500">
