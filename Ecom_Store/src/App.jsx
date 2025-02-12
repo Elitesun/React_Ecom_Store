@@ -71,7 +71,7 @@ const App = () => {
       <div className='flex flex-col'>
         <Nav handleInputChange={ handleInputChange} query={query} />
         <Recon handleClick={handleClick}/>
-        <Product  products = {result}/>
+        <Product products={result} />
       </div>
     </div>
  

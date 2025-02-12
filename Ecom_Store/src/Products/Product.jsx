@@ -46,8 +46,8 @@ return (
                 <div>
                     <div className="flex justify-between ">
                         <div className="flex items-center gap-2">
-                            <span className="text-2xl font-bold relative bottom-4">{product.prevPrice}</span><span
-                                className="text-gray-600 line-through relative bottom-4 left-2">${product.newPrice}</span>
+                                <span className="text-2xl font-bold relative bottom-4">${product.newPrice}</span>
+                                <span className="text-gray-600 line-through relative bottom-4 left-2">${product.prevPrice}</span>
                         </div>
                     </div>
                     <div className="flex gap-15">
