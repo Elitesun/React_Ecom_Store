@@ -2,13 +2,16 @@ import React from 'react'
 import {FiHeart} from 'react-icons/fi'
 import {AiOutlineShoppingCart , AiOutlineUserAdd} from 'react-icons/ai'
 
+// Nav component with a search bar and three icons (heart, shopping cart, user)
 const Nav = ({handleInputChange , query}) => {
 return (
 <nav className=' flex border-b-2 border-solid border-b-[#f3f3f3] justify-around items-center p-4 bg-white z-999'>
+    {/* Search input - value and onChange handler are passed as props */}
     <div className="flex border-b-2 border-solid border-b-[#f3f3f3]">
         <input type="text" value={query} onChange={handleInputChange} placeholder="Search Products" className="search-input" />
     </div>
 
+    {/* Profile container with three icons */}
     <div className="profile-container">
 
         <a href="#">
@@ -26,7 +29,7 @@ return (
 
     </div>
 
-    {/* scoped stu=yles . i dont want to create a Nav.css so let it stay here */}
+    {/* Scoped styles - I don't want to create a separate CSS file for this component */}
     <style scoped>
         {
             ` input {
@@ -59,3 +62,4 @@ return (
 
 
 export default Nav
+
