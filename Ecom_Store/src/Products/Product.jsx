@@ -1,14 +1,13 @@
 import React from 'react';
 import { FaRegHeart } from "react-icons/fa";
-import data from '../assets/data.js'
 import { AiFillStar } from "react-icons/ai";
 import { FiShoppingCart } from "react-icons/fi";
 
-const Product = () => {
+const Product = ({products}) => {
 return (
 
 <section className='flex flex-wrap gap-2 justify-around'>
-    {data.map((product) => (
+    {products.map((product) => (
     <div key={Math.random()}
         className=" sm:w-[280px] h-[430px] bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 mt-6 border-t-4 border-blue-500">
         <div className="flex flex-col h-full">
